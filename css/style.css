@@ -82,6 +82,22 @@ section{
     border: 1px solid red;
 }
 
+/* Section-Benefits */
+.benefits{
+    background-color: bisque;
+
+}
+
+.benefits-columns{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.benefits-col{
+    border: 1px solid red;
+
+}
 
 
 
@@ -91,8 +107,10 @@ section{
 
 
 
-/* Table */
+
+/* Tablet */
 @media screen and (min-width: 768px) {
+    /* Main */
     .columns{
         margin-left: -1rem;
         margin-right: -1rem;
@@ -107,6 +125,19 @@ section{
     .col:first-child{
         width: calc( (100% / 3) * 2);
     }
+
+    /* Section-Benefits */
+    .benefits-columns{
+        justify-content: space-between;
+
+    }
+
+    .benefits-col{
+        width: calc( (100% / 2) - 1rem);
+        padding-bottom: 1rem;
+        
+    }
+
     
 }
 
@@ -135,4 +166,17 @@ section{
     .strategy-col{
         width: calc( 50% - 1rem );
     }
+
+    /* Section-Benefits */
+    .benefits-columns{
+        justify-content: space-between;
+
+    }
+
+    .benefits-col{
+        width: calc( (100% / 3) - 1rem);
+        padding-bottom: 1rem;
+        
+    }
+
 }
