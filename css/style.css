@@ -55,6 +55,21 @@ section{
     padding-bottom: 1rem;
 }
 
+.strategy{
+    background-color: lightcoral;
+}
+
+.strategy-columns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy-col{
+    height: 100%;
+    border: 1px solid white;
+
+}
+
 
 
 
@@ -96,4 +111,17 @@ section{
         display: none;
     }
     
+    /* Main */
+    .strategy .container{
+        max-width: 950px;
+
+    }
+
+    .strategy-columns{
+        justify-content: space-between;
+    }
+
+    .strategy-col{
+        width: calc( 50% - 1rem );
+    }
 }
