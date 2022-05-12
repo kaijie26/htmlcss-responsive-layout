@@ -4,7 +4,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* COMMON */
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.mobile-padding{
+    padding: 0 2rem;
+}
+
+/* Header */
+header{
+    height: 70px;
+    background-color: #0084fd;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* Table */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    /* Header */
+    .header-menu{
+        display: block;
+
+    }
+
+    .burger-button{
+        display: none;
+    }
+    
 }
