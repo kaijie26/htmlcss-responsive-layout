@@ -55,6 +55,7 @@ section{
     padding-bottom: 1rem;
 }
 
+/* Section-Strategy */
 .strategy{
     background-color: lightcoral;
 }
@@ -67,9 +68,19 @@ section{
 .strategy-col{
     height: 100%;
     border: 1px solid white;
+    padding: 1rem 0;
 
 }
 
+.testimonials{
+    background-color: aquamarine;
+}
+
+/* Section-Testimonials */
+.customer-feedback{
+    padding: 1rem 0;
+    border: 1px solid red;
+}
 
 
 
