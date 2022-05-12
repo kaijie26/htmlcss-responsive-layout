@@ -15,7 +15,8 @@ body{
 }
 
 .mobile-padding{
-    padding: 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* Header */
@@ -36,6 +37,26 @@ nav{
     display: none;
 }
 
+/* Main */
+section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col{
+    /* TEST */
+    border: 1px solid red;
+    padding-bottom: 1rem;
+}
+
+
+
 
 
 
@@ -46,6 +67,20 @@ nav{
 
 /* Table */
 @media screen and (min-width: 768px) {
+    .columns{
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+
+    .col{
+        width: calc(100% / 3);
+        padding: 1rem;
+    }
+
+    .col:first-child{
+        width: calc( (100% / 3) * 2);
+    }
     
 }
 
