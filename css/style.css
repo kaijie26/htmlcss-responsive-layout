@@ -99,6 +99,27 @@ section{
 
 }
 
+ /* Section-about-us */
+ .about-us{
+    background-color: pink;
+}
+.text-columns{
+    display: flex;
+    flex-direction: column;
+}
+
+.large-col{
+    padding-bottom: 1rem;
+    border: 1px solid red;
+
+}
+
+.narrow-col{
+    border: 1px solid red;
+
+}
+
+
 
 
 
@@ -136,6 +157,28 @@ section{
         width: calc( (100% / 2) - 1rem);
         padding-bottom: 1rem;
         
+    }
+
+    /* Section-About-us */
+    .text-columns{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .large-col{
+        width: 70%;
+        padding-right: 2rem;
+        border: 1px solid red;
+
+    }
+
+    .narrow-col{
+        width: 30%;
+        border: 1px solid red;
+
+
+
     }
 
     
