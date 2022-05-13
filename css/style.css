@@ -190,7 +190,7 @@ section{
 
 .row{
     padding-top: 2rem;
-    padding-bottom: 1rem;
+   
 }
 
 .customer-feedback{
@@ -220,8 +220,14 @@ section{
 
 /* Section-Benefits */
 .benefits{
-    background-color: bisque;
+    background-color: #9792e4;
 
+}
+
+.benefits h2{
+    color: white;
+    padding-bottom: 3rem;
+    text-align: center;
 }
 
 .benefits-columns{
@@ -231,8 +237,35 @@ section{
 }
 
 .benefits-col{
-    border: 1px solid red;
+   padding-bottom: 2rem;
+}
 
+.benefit-info{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.btn-benefits{
+    color: white;
+    background-color: #9792e4;
+    padding: 10px 40px;
+    border-radius: 30px;
+    margin-top: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.benefit-info h3{
+    padding: 2rem 0;
+    color: #9792e4;;
+
+}
+
+.benefit-info :first-child{
+    color: #9792e4;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
  /* Section-about-us */
@@ -323,7 +356,7 @@ section{
 
     .benefits-col{
         width: calc( (100% / 2) - 1rem);
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         
     }
 
@@ -417,7 +450,7 @@ section{
 
     .benefits-col{
         width: calc( (100% / 3) - 1rem);
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         
     }
 
