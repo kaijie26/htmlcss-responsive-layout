@@ -185,12 +185,37 @@ section{
 /* Section-Testimonials */
 
 .testimonials{
-    background-color: aquamarine;
+    
+}
+
+.row{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .customer-feedback{
+    padding: 2rem 1rem;
+    background-color: #9792e4;
+    border-radius: 50px;
+    color: white;
+   
+}
+
+.customer-feedback p{
     padding: 1rem 0;
-    border: 1px solid red;
+}
+
+.square-img-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.square-img-box img{
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Section-Benefits */
@@ -267,6 +292,28 @@ section{
     .col:nth-child(2){
         display: flex;
     }
+
+    /* Section-Testimonials */
+    .customer-feedback{
+        display: flex;
+        
+    }
+
+    .feedback-text{
+        width: 80%;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+
+    .feedback-text :last-child{
+        text-align: left;
+    }
+
+    .info-commit{
+        text-align: center;
+    }
+    
+
 
     /* Section-Benefits */
     .benefits-columns{
@@ -351,6 +398,15 @@ section{
 
     .strategy-col-right{
         width: calc(40% - 2rem) ;
+    }
+
+    /* Section-Testimonials */
+    .feedback-text{
+        padding-left: 3rem;
+    }
+
+    .square-img-box{
+        margin: 0;
     }
 
     /* Section-Benefits */
