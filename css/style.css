@@ -19,6 +19,34 @@ body{
     padding-right: 2rem;
 }
 
+.card-padding{
+    padding: 2rem;
+}
+
+img{
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn-small{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.btn-large{
+    color: white;
+    background-color: #0084fd;;
+    padding: 7px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
 /* Header */
 header{
     height: 70px;
@@ -51,14 +79,10 @@ li a{
     color: white;
 }
 
-.btn{
-    color: black;
-    background-color: white;
-    padding: 10px;
-    border-radius: 30px;
-}
 
 /* Main */
+
+/* Info-columns */
 section{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -71,10 +95,46 @@ section{
 }
 
 .col{
-    /* TEST */
-    border: 1px solid red;
     padding-bottom: 1rem;
 }
+
+.info-card{
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+.info-card-large img{
+    display: block;
+    padding-top: 2rem;
+}
+
+.info-card-large{
+    background-color: #b5ddff;
+    padding: 2rem;
+    padding-bottom: 0%;
+    border-radius: 20px;
+}
+
+.info-card-large h3{
+    color: #0084fd;;
+}
+
+.info-card-large p{
+    padding: 2rem 0;
+}
+
+.icone{
+    font-size: 4rem;
+    color: #0084fd;;
+}
+
+.info-card h3{
+    padding: 1.5rem 0;
+    color: #0084fd;;
+}
+
+/* End Info-Columns */
+
 
 /* Section-Strategy */
 .strategy{
@@ -158,6 +218,8 @@ section{
 /* Tablet */
 @media screen and (min-width: 768px) {
     /* Main */
+
+    /*Info-Columns  */
     .columns{
         margin-left: -1rem;
         margin-right: -1rem;
@@ -171,6 +233,10 @@ section{
 
     .col:first-child{
         width: calc( (100% / 3) * 2);
+    }
+
+    .col:nth-child(2){
+        display: flex;
     }
 
     /* Section-Benefits */
@@ -223,6 +289,23 @@ section{
     }
     
     /* Main */
+
+    /* Info-Columns */
+    .flex-container{
+        display: flex;
+    }
+
+    .col-left{
+        width: 50%;
+
+    }
+
+    .col-right{
+        width: 50%;
+
+    }
+
+    /* Section Strategy */
     .strategy .container{
         max-width: 950px;
 
