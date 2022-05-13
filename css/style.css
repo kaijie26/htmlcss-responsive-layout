@@ -37,6 +37,27 @@ nav{
     display: none;
 }
 
+.list-menu{
+    display: flex;
+}
+
+ul li{
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
 /* Main */
 section{
     padding-top: 3rem;
