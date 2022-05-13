@@ -138,7 +138,21 @@ section{
 
 /* Section-Strategy */
 .strategy{
-    background-color: lightcoral;
+    background-color: #9792e4;
+}
+
+.white{
+    background-color: white;
+    border-radius: 50px;
+}
+
+.strategy-col-left h2{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.strategy-col-right h3{
+    padding:1rem 0;
 }
 
 .strategy-columns{
@@ -146,18 +160,34 @@ section{
     flex-wrap: wrap;
 }
 
-.strategy-col{
+.strategy-col-right{
     height: 100%;
-    border: 1px solid white;
     padding: 1rem 0;
 
 }
+
+.strategy-col-left{
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: #9792e4;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+
+
+/* Section-Testimonials */
 
 .testimonials{
     background-color: aquamarine;
 }
 
-/* Section-Testimonials */
 .customer-feedback{
     padding: 1rem 0;
     border: 1px solid red;
@@ -224,7 +254,6 @@ section{
         margin-left: -1rem;
         margin-right: -1rem;
     }
-
 
     .col{
         width: calc(100% / 3);
@@ -312,11 +341,16 @@ section{
     }
 
     .strategy-columns{
+        align-items: flex-end;
         justify-content: space-between;
     }
 
-    .strategy-col{
-        width: calc( 50% - 1rem );
+    .strategy-col-left{
+        width: calc(60% - 2rem);
+    }
+
+    .strategy-col-right{
+        width: calc(40% - 2rem) ;
     }
 
     /* Section-Benefits */
