@@ -270,7 +270,7 @@ section{
 
  /* Section-about-us */
  .about-us{
-    background-color: pink;
+   
 }
 .text-columns{
     display: flex;
@@ -278,19 +278,66 @@ section{
 }
 
 .large-col{
-    padding-bottom: 1rem;
-    border: 1px solid red;
+    padding-bottom: 2rem;
 
 }
 
-.narrow-col{
-    border: 1px solid red;
+.large-col :nth-child(2){
+    padding: 2rem 0;
+}
 
+.large-col h2{
+    color: #9792e4;
+    font-size: 3rem;
+
+}
+
+
+.narrow-col{
+   position: relative;
+
+}
+
+.narrow-col :nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    color: #9792e4;
+}
+
+.narrow-col p{
+    padding: 2rem 0;
+    color: #9792e4;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.btn-large-linkedin{
+    color: white;
+    background-color: #9792e4;
+    padding: 7px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.square-img-box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.square-img-box2 img{
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Section-get-started */
 .get-started{
     background-color: lightgray;
+
 }
 
 
@@ -370,16 +417,16 @@ section{
     .large-col{
         width: 70%;
         padding-right: 2rem;
-        border: 1px solid red;
-
+       
     }
 
     .narrow-col{
         width: 30%;
-        border: 1px solid red;
+       
+    }
 
-
-
+    .narrow-col p{
+        font-size: 1.5rem;
     }
 
     
