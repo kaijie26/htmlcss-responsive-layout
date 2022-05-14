@@ -352,7 +352,14 @@ section{
 
 }
 
-.info-text div, p, h2{
+ .info-text div, h2{
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+
+}
+
+.info-text p{
     padding-top: 2rem;
     color: white;
     text-align: center;
@@ -388,6 +395,26 @@ section{
     vertical-align: middle;
   
 }
+
+/* Footer */
+.footer-info{
+    background-color: black;
+    color:#e3e3e3;
+}
+
+.footer-info a{
+    color: #807cbb;
+}
+
+.footer-text p{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.footer-text div{
+    padding-bottom: 2rem;
+}
+
 
 
 
@@ -476,6 +503,12 @@ section{
         font-size: 1.5rem;
     }
 
+     /* Footer */
+     .get-started .container{
+        max-width: 890px;
+    }
+
+
     
 }
 
@@ -546,6 +579,11 @@ section{
         width: calc( (100% / 3) - 1rem);
         padding-bottom: 2rem;
         
+    }
+
+    /* Footer */
+    .footer-info .container{
+        max-width: 850px;
     }
 
 }
